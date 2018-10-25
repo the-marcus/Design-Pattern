@@ -13,6 +13,9 @@ public class Tom {
     /**Tom是低层模块，Test是应用层，属于高层模块
      * 根据依赖倒置原则，高层模块不应该依赖于低层模块。
      * 而且Tom类中的方法扩展性很差
+     *
+     * Spring从低层到高层：
+     * DAO->SERVICE->CONTROLLER
      * */
 
 //    public void studyJavaCourse(){
